@@ -1,13 +1,6 @@
 
 
 
-function checkCount(){
-    if(countG=10){
-        setTimeout(function (){location.replace("youWin.html")},2000);
-    }else if(countB=0){
-        setTimeout(function (){location.replace("youLose.html")},2000);
-    }
-}
 
 
 
@@ -27,11 +20,14 @@ function showimg1(){
             buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
             /// Return you win
             setTimeout(function (){location.replace("youWin.html")},3000);
-        }
-
-
-        checkCount();
+            }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
+}
+
 
 function showimg2(){
     let a=Math.floor(Math.random()*100);
@@ -48,7 +44,13 @@ function showimg2(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
+
 
 function showimg3(){
     let a=Math.floor(Math.random()*100);
@@ -64,6 +66,11 @@ function showimg3(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -82,7 +89,13 @@ function showimg4(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
+
 
 function showimg5(){
     let a=Math.floor(Math.random()*100);
@@ -99,6 +112,11 @@ function showimg5(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg6(){
@@ -116,6 +134,11 @@ function showimg6(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg6(){
     let a=Math.floor(Math.random()*100);
@@ -131,6 +154,11 @@ function showimg6(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -149,6 +177,11 @@ function showimg7(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -166,6 +199,11 @@ function showimg8(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -186,6 +224,11 @@ function showimg9(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -204,6 +247,11 @@ function showimg10(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -224,6 +272,11 @@ function showimg11(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -242,6 +295,11 @@ function showimg12(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -280,6 +338,11 @@ function showimg14(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -297,6 +360,11 @@ function showimg15(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -337,6 +405,11 @@ function showimg17(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -355,6 +428,11 @@ function showimg18(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -375,6 +453,11 @@ function showimg19(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -392,6 +475,11 @@ function showimg20(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -431,6 +519,11 @@ function showimg22(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -448,6 +541,11 @@ function showimg23(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -469,6 +567,11 @@ function showimg24(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -488,6 +591,11 @@ function showimg25(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg26(){
@@ -504,6 +612,11 @@ function showimg26(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -523,6 +636,11 @@ function showimg27(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -540,6 +658,11 @@ function showimg28(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -559,6 +682,11 @@ function showimg29(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -576,6 +704,11 @@ function showimg30(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -595,6 +728,11 @@ function showimg31(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -612,6 +750,11 @@ function showimg32(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -631,6 +774,11 @@ function showimg33(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -649,23 +797,10 @@ function showimg34(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
-}
-
-
-function showimg35(){
-    let a=Math.floor(Math.random()*100);
-    let buttons=document.getElementById("button35");
-    if(a<76){
-        countG++;
-        buttons.innerHTML = '<img src="minigoldnoB.png" height="30px" width="30px"  >'
-    }else if (a<96){
-        countB--;
-        buttons.innerHTML='<img src="BoomnoB.png"height="30px" width="30px">'
-    }
-    else {
-        buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
-        /// Return you win
-        setTimeout(function (){location.replace("youWin.html")},3000);
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -684,6 +819,34 @@ function showimg35(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
+}
+
+
+function showimg35(){
+    let a=Math.floor(Math.random()*100);
+    let buttons=document.getElementById("button35");
+    if(a<76){
+        countG++;
+        buttons.innerHTML = '<img src="minigoldnoB.png" height="30px" width="30px"  >'
+    }else if (a<96){
+        countB--;
+        buttons.innerHTML='<img src="BoomnoB.png"height="30px" width="30px">'
+    }
+    else {
+        buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
+        /// Return you win
+        setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -703,6 +866,11 @@ function showimg36(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -720,6 +888,11 @@ function showimg37(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -739,6 +912,11 @@ function showimg38(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg39(){
@@ -755,6 +933,11 @@ function showimg39(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -773,6 +956,11 @@ function showimg40(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -796,6 +984,11 @@ function showimg41(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -814,6 +1007,11 @@ function showimg42(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -834,6 +1032,11 @@ function showimg43(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -853,6 +1056,11 @@ function showimg44(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -871,6 +1079,15 @@ function showimg45(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -891,6 +1108,11 @@ function showimg46(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -909,6 +1131,11 @@ function showimg47(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -929,6 +1156,11 @@ function showimg48(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -947,6 +1179,11 @@ function showimg49(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -967,6 +1204,11 @@ function showimg50(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -985,6 +1227,11 @@ function showimg51(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1005,6 +1252,11 @@ function showimg52(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -1023,6 +1275,11 @@ function showimg53(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1043,6 +1300,11 @@ function showimg54(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -1061,6 +1323,11 @@ function showimg55(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1081,6 +1348,11 @@ function showimg56(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -1099,6 +1371,11 @@ function showimg57(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1119,6 +1396,11 @@ function showimg58(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -1137,6 +1419,11 @@ function showimg59(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1157,6 +1444,11 @@ function showimg60(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -1176,6 +1468,11 @@ function showimg61(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg62(){
     let a=Math.floor(Math.random()*100);
@@ -1191,6 +1488,11 @@ function showimg62(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg63(){
@@ -1208,6 +1510,11 @@ function showimg63(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg64(){
     let a=Math.floor(Math.random()*100);
@@ -1223,6 +1530,11 @@ function showimg64(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg65(){
@@ -1240,6 +1552,11 @@ function showimg65(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg66(){
     let a=Math.floor(Math.random()*100);
@@ -1255,6 +1572,11 @@ function showimg66(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg67(){
@@ -1272,6 +1594,11 @@ function showimg67(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg68(){
     let a=Math.floor(Math.random()*100);
@@ -1287,6 +1614,11 @@ function showimg68(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg69(){
@@ -1304,6 +1636,11 @@ function showimg69(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg70(){
     let a=Math.floor(Math.random()*100);
@@ -1319,6 +1656,11 @@ function showimg70(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1337,6 +1679,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg72(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button72");
@@ -1351,6 +1698,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg73(){
     let a=Math.floor(Math.random()*100);
@@ -1367,6 +1719,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg74(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button74");
@@ -1381,6 +1738,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg75(){
     let a=Math.floor(Math.random()*100);
@@ -1397,6 +1759,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg76(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button76");
@@ -1411,6 +1778,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg77(){
     let a=Math.floor(Math.random()*100);
@@ -1427,6 +1799,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg78(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button78");
@@ -1441,6 +1818,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg79(){
     let a=Math.floor(Math.random()*100);
@@ -1457,6 +1839,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg80(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button80");
@@ -1471,6 +1858,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 
 }function showimg81(){
@@ -1488,6 +1880,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg82(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button82");
@@ -1502,6 +1899,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg83(){
     let a=Math.floor(Math.random()*100);
@@ -1518,6 +1920,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg84(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button84");
@@ -1532,6 +1939,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg85(){
     let a=Math.floor(Math.random()*100);
@@ -1548,6 +1960,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg86(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button86");
@@ -1562,6 +1979,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg87(){
     let a=Math.floor(Math.random()*100);
@@ -1578,6 +2000,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg88(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button88");
@@ -1593,6 +2020,11 @@ function showimg71(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg89(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button89");
@@ -1607,6 +2039,11 @@ function showimg71(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1624,6 +2061,11 @@ function showimg90(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1644,6 +2086,11 @@ function showimg91(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg92(){
@@ -1660,6 +2107,11 @@ function showimg92(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1678,6 +2130,11 @@ function showimg93(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg94(){
@@ -1694,6 +2151,11 @@ function showimg94(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1712,6 +2174,11 @@ function showimg95(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg96(){
@@ -1728,6 +2195,11 @@ function showimg96(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1746,6 +2218,11 @@ function showimg97(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg98(){
@@ -1762,6 +2239,11 @@ function showimg98(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1780,6 +2262,11 @@ function showimg99(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg100(){
@@ -1796,6 +2283,11 @@ function showimg100(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -1815,6 +2307,11 @@ function showimg101(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg102(){
     let a=Math.floor(Math.random()*100);
@@ -1830,6 +2327,11 @@ function showimg102(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg103(){
@@ -1847,6 +2349,11 @@ function showimg103(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg104(){
     let a=Math.floor(Math.random()*100);
@@ -1862,6 +2369,11 @@ function showimg104(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg105(){
@@ -1879,6 +2391,11 @@ function showimg105(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg106(){
     let a=Math.floor(Math.random()*100);
@@ -1894,6 +2411,11 @@ function showimg106(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg107(){
@@ -1927,6 +2449,11 @@ function showimg108(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg109(){
     let a=Math.floor(Math.random()*100);
@@ -1942,6 +2469,11 @@ function showimg109(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 function showimg110(){
@@ -1959,6 +2491,11 @@ function showimg110(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 function showimg111(){
     let a=Math.floor(Math.random()*100);
@@ -1975,6 +2512,11 @@ function showimg111(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg112(){
     let a=Math.floor(Math.random()*112);
     let buttons=document.getElementById("button100");
@@ -1989,6 +2531,11 @@ function showimg111(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg113(){
     let a=Math.floor(Math.random()*113);
@@ -2005,6 +2552,11 @@ function showimg111(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg114(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button114");
@@ -2019,6 +2571,11 @@ function showimg111(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg115(){
     let a=Math.floor(Math.random()*100);
@@ -2035,6 +2592,11 @@ function showimg111(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg116(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button116");
@@ -2049,6 +2611,11 @@ function showimg111(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }function showimg117(){
     let a=Math.floor(Math.random()*100);
@@ -2065,6 +2632,11 @@ function showimg111(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg118(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button118");
@@ -2080,6 +2652,11 @@ function showimg111(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }function showimg119(){
     let a=Math.floor(Math.random()*100);
     let buttons=document.getElementById("button119");
@@ -2094,6 +2671,11 @@ function showimg111(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2111,6 +2693,11 @@ function showimg120(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2130,6 +2717,11 @@ function showimg121(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg122(){
@@ -2146,6 +2738,11 @@ function showimg122(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2164,6 +2761,11 @@ function showimg123(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg124(){
@@ -2180,6 +2782,11 @@ function showimg124(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2198,6 +2805,11 @@ function showimg125(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg126(){
@@ -2214,6 +2826,11 @@ function showimg126(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2232,6 +2849,11 @@ function showimg127(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg128(){
@@ -2248,6 +2870,11 @@ function showimg128(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2268,6 +2895,11 @@ function showimg129(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 function showimg130(){
@@ -2284,6 +2916,11 @@ function showimg130(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2304,6 +2941,11 @@ function showimg131(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -2321,6 +2963,11 @@ function showimg132(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2341,6 +2988,11 @@ function showimg133(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -2358,6 +3010,11 @@ function showimg134(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2377,6 +3034,11 @@ function showimg135(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -2394,6 +3056,11 @@ function showimg136(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2413,6 +3080,11 @@ function showimg137(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -2430,6 +3102,11 @@ function showimg138(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2449,6 +3126,11 @@ function showimg139(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -2466,6 +3148,11 @@ function showimg140(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2485,6 +3172,11 @@ function showimg141(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -2502,6 +3194,11 @@ function showimg142(){
         buttons.innerHTML='<img src="GoldddnoB.png"height="480px" width="480px" >'
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
+    }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
     }
 }
 
@@ -2521,6 +3218,11 @@ function showimg143(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
 
 
@@ -2539,7 +3241,13 @@ function showimg144(){
         /// Return you win
         setTimeout(function (){location.replace("youWin.html")},3000);
     }
+    if(countG==15){
+        setTimeout(function (){location.replace("youWin.html")},2000);
+    }else if(countB==0){
+        setTimeout(function (){location.replace("youLose.html")},2000);
+    }
 }
+
 
 
 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button  onclick="check1()"> check</button>
+<button  onclick="check2()"> check</button>
+</body>
+<script>
+    let count1=0;
+    let count2=5;
+
+    function check1() {
+        let a = Math.floor(Math.random() * 100);
+        if (a < 76) {
+            count1++;
+        } else if (a < 96) {
+            count2--;
+        }
+        if(count1===5){
+            alert("win")
+        }
+        console.log(count1);
+        console.log(count2);
+    }
+
+
+
+    function check2() {
+        let a = Math.floor(Math.random() * 100);
+        if (a < 76) {
+            count1++;
+        } else if (a < 96) {
+            count2--;
+        }
+        console.log(count1);
+        console.log(count2);
+    }
+
+
+</script>
+</html>
